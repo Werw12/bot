@@ -101,7 +101,7 @@ class BotUI:
             self.log(f'Sent message to {channel}: {message}')
         else:
             self.log('Bot is not connected.')
-
+# Run the application
 if __name__ == "__main__":
     root = tk.Tk()
     app = BotUI(root)
